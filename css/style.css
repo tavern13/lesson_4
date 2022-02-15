@@ -1,0 +1,123 @@
+@import "null.css";
+/* ? google fonts from website */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+/* ? google fonts from plugin */
+@import url("https://fonts.googleapis.com/css?family=Lato:regular&display=swap");
+/* ? font-face */
+@font-face {
+	font-family: "ZenKakuGothicAntique";
+	src: url("../fonts/ZenKakuGothicAntique-Regular.woff2") format("woff2"),
+		url("../fonts/ZenKakuGothicAntique-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "ZenKakuGothicAntique";
+	src: url("../fonts/ZenKakuGothicAntique-Black.woff2") format("woff2"),
+		url("../fonts/ZenKakuGothicAntique-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "ZenKakuGothicAntique";
+	src: url("../fonts/ZenKakuGothicAntique-Bold.woff2") format("woff2"),
+		url("../fonts/ZenKakuGothicAntique-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+/* ! body section */
+body {
+	font-family: "ZenKakuGothicAntique", sans-serif;
+}
+h3 {
+	letter-spacing: 15px;
+}
+p.brick {
+	color: crimson;
+	text-shadow: -10px -10px 5px rebeccapurple, 10px 10px 5px rebeccapurple;
+}
+ul li.underline {
+	text-decoration: underline;
+}
+.underline.midle {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+/* ? header section */
+.big {
+	text-transform: uppercase;
+}
+span {
+	color: green;
+}
+mark {
+	text-decoration: overline;
+}
+#start {
+	font-size: 56px;
+	color: rgba(127, 255, 212, 0.7);
+	font-weight: 900;
+}
+/* ? main section */
+/* * first-section */
+.first-section p {
+	text-align: justify;
+}
+[class*="text"] {
+	color: rgba(4, 4, 214, 0.4);
+	text-transform: capitalize;
+	text-shadow: 10px 10px 1px coral;
+}
+#paragraph_1 {
+	font-size: 46px;
+	font-weight: 900;
+	color: bisque;
+}
+#subparagraph_3 {
+	text-align: right;
+}
+#subparagraph_2,
+#subparagraph_4 {
+	text-align: center;
+}
+.first-section h3 {
+	font-size: 36px;
+	font-weight: 700;
+	color: rgba(137, 43, 226, 0.5);
+}
+/* * second-section */
+.second-section {
+	font-family: "Lato", sans-serif;
+	color: #424551;
+	line-height: 1.6;
+}
+.color-s2 {
+	color: #1e212c;
+}
+#paragraph_2 {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+}
+.size-20 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+/* ? footer section */
+footer p {
+	text-decoration: line-through;
+}
+.div-link {
+	text-align: center;
+}
+.link {
+	font-family: "Lato", sans-serif;
+	font-style: italic;
+	color: rgba(0, 238, 255, 0.932);
+}
